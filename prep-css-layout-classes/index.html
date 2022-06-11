@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding: 0px 8px;
+    }
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="./images/crusade.jpg">
+        <h3>The Last Crusade</h3>
+        <p>Somehow Indiana Jones has forgotten all of the lessons of its forebears, both film and character.
+          It's one thing to make each film similar, it's another to give them amnesia.</p>
+      </div>
+      <div class="column">
+        <img src="./images/raiders.jpg">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>The picture is offering you a pact: you agree to be a kid again, in return for which Raiders will give you old-time
+          movie thrills expressed in slick modern cinematic terms. No, thanks.</p>
+      </div>
+      <div class="column">
+        <img src="./images/temple.jpg">
+        <h3>Temple of Doom</h3>
+        <p>The film as a whole feels like an insignificant episode in Indy's life, instead of an influential chapter in the
+          evolution of the action genre.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
