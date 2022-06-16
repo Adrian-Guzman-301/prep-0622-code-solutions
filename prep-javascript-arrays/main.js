@@ -1,4 +1,4 @@
-const languages = [
+var languages = [
   'html',
   'css',
   'javascript',
@@ -7,11 +7,11 @@ const languages = [
   'postgres'
 ];
 console.log('languages array', languages);
-const firstElement = 'html';
+var firstElement = languages[0];
 console.log('the first element of the array is', firstElement);
-const thirdElement = 'javascript';
+var thirdElement = languages[2];
 console.log('the third element of the array is', thirdElement);
 var length = 6;
 console.log('the length of the array is', length);
-const lastElement = 'postgres';
+var lastElement = languages[5];
 console.log('the last element of the array is', lastElement);
